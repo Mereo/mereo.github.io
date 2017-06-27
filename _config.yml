@@ -1,0 +1,32 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Coding Insanity
+tagline:          Life of a coder
+description:      'while(!problemSolved){ looseHair();}'
+url:              http://www.codinginsanity.com
+baseurl:          /
+
+author:
+  name:           'Ziad Nsarellah'
+  url:            
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
+
+# The code that will permit us to have just a preview of the post
+excerpt_separator: <!--more-->
+
+gems: [jekyll-paginate]
+
