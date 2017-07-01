@@ -2,7 +2,7 @@
 layout: post
 title: I graduated!
 preview: true
-comments: false
+comments: true
 ---
 
 I shall write a long post about it. 
