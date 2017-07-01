@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: À propos de moi
 ---
 
 Ziad Nsarellah is a self-proclaimed geek passionate about technology. His degree in Social Sciences with a Minor in Sociology permits him to understand the various influences technology has on people and society.
