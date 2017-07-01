@@ -7,14 +7,14 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            La vie... Société... Mereo
-tagline:          La vie selon Mereo
-description:      Point de vue sociologique de la société
-url:              http://www.mereo.ca
+title:            Ziad Nsarellah - Futur Sociologue/sociologist
+tagline:          Life of a coder
+description:      'while(!problemSolved){ looseHair();}'
+url:              http://www.codinginsanity.com
 baseurl:          /
 
 author:
-  name:           'Mereo'
+  name:           'Ziad Nsarellah'
   url:            
 
 paginate:         5
