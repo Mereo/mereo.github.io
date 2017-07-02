@@ -5,7 +5,7 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{% assign m = page.date | date: "%-m" %}
-{{ page.date | date: "%-d" }}
+{{ page.date | date: "%d" }}
 {% case m %}
   {% when '1' %}janvier
   {% when '2' %}février
@@ -20,9 +20,10 @@ layout: default
   {% when '11' %}novembre
   {% when '12' %}décembre
 {% endcase %}
-{{ page.date | date: "%Y" }}</span>
+{{ page.date | date: "%Y" }} {% if page.comments %} | • <a href="{{ site.url }}{{ page.url }}#disqus_thread" class="disqus-comment-count"> fdakjfklda</a>{% endif %}</span>
   {{ content }}
 </div>
+
 
 <div class "comments">
 
@@ -30,7 +31,7 @@ layout: default
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'codinginsanity';
+    var disqus_shortname = 'la-vie-socitete-mereo';
     
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
