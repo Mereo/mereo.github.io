@@ -20,7 +20,7 @@ layout: default
   {% when '11' %}novembre
   {% when '12' %}décembre
 {% endcase %}
-{{ page.date | date: "%Y" }} {% if page.comments %} | <a href="{{ site.url }}{{ page.url }}#disqus_thread" class="disqus-comment-count">0 commentaire</a>{% endif %}</span>
+{{ page.date | date: "%Y" }} {% if page.comments %} | <a href="{{ page.url }}#disqus_thread" class="disqus-comment-count">0 commentaire</a>{% endif %}</span>
   {{ content }}
 </div>
 
